@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Notes Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <h1 id="header">My Notes board</h1>
+    <div id="container">
+        <div id="fillingBox">
+            
+            <textarea id="text_Input" placeholder="Please fill your mission here" rows="4" cols="50"></textarea>
+        </div>
+        <div id="dateInput">
+            <label for="Date">Date:</label>
+            <input id="userDate" type="date">
+        </div>
+        <div id="timeInput">
+            <label for="time">Time:</label>
+            <input id="userTime" type="time" >
+        </div>
+        <div id="createButton">
+            <button class="btn" onclick="sendInfo(id)">Create</button>
+            <button class="btn" onclick="deleteAll()">Clear List</button>
+        </div>
+    </div>
+
+    <div id="notes">
+    </div>
+
+
+    <script src="javascript2.js"></script>
+</body>
+
+</html>
+

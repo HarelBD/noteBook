@@ -1,0 +1,84 @@
+body {
+    background-image: url("/images/background.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1#header {
+    color: black;
+    width: 245px;
+    margin: 0 auto;
+}
+
+div#container {
+    text-align: center;
+    padding: 5px;
+}
+
+div#fillingBox>textarea#text_Input {
+    margin: 25px;
+    resize: none;
+}
+
+div#dateInput {
+    padding-bottom: 15px;
+}
+
+div#dateInput > input#userDate{
+    font-size:20px;
+}
+div#timeInput > input#userTime{
+    font-size:20px;
+}
+
+div#timeInput {
+    padding-bottom: 15px;
+}
+
+label{
+font-weight:bold;
+font-size:25px;
+}
+
+.btn{
+    font-size:20px;
+    background-color:rgba(75, 255, 10, 0.561);
+}
+#notes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+} 
+#notes .note{
+    background-image: url("/images/note.png");
+    background-repeat: no-repeat;
+    width:250px;
+    height:250px;
+    padding-top:35px;
+    
+}
+
+div#xBtn{
+text-align:right;
+padding-right:15px;
+}
+
+#divDate p{
+    margin-bottom:0;
+}
+div#divDate{
+    padding-left: 10px;
+    margin-bottom:0;
+}
+
+#divTime p{
+    
+    padding-left: 10px;
+    margin:0;
+}
+#divText{
+    text-align:center;
+    overflow: auto;
+    height: 145px;
+
+}
